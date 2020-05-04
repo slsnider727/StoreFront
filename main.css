@@ -1,0 +1,257 @@
+/*Common Elements*/
+body {
+    background-color: #053b00;
+    background-image: url("https://www.transparenttextures.com/patterns/light-paper-fibers.png");
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+/*Banner-Header*/
+.banner {
+    background-image: url(assets/paper-787652_1920.jpg);
+    /*background-image: url(assets/parchment-background.jpeg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    top: 0;
+    margin: 0 0 0 0;
+    border-bottom: solid 3px black;
+}
+
+header {
+    display: inline-block;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    color: #053b00;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3.5em;
+    letter-spacing: -0.025em;
+    margin-top: 0;
+    text-shadow: 1px 2px 3px #053b00dc;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 300;
+    color: #663300;
+    font-size: 2em;
+    letter-spacing: 0.025em;
+    margin-top: -1.25em;
+}
+
+.nav {
+    height: 1.5em;
+}
+
+.nav ul {
+    margin: 0;
+    height: 1em;
+    padding-inline-start: 0;
+}
+
+.nav li {
+    float: right;
+    padding: 0.4em 1em 0;
+}
+
+.nav #home {
+    float: left;
+}
+
+.nav #navlink {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.pagelinks {
+    margin: 0.5em;
+    height: 1.5em;
+    font-size: larger;
+}
+
+.pagelinks a{
+    text-decoration: none;
+    color: black;
+    padding: 0 0.7em 0;
+}
+
+.pagelinks a:hover {
+    color: gray;
+}
+
+/*Covid Statement*/
+.covid {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 3em;
+    font-family: 'Bad Script', sans-serif;
+    font-style: oblique;
+    /*font-weight: bold;*/
+    font-size: 22px;
+    text-align: center;
+    color: red;
+    border-radius: 0.5em;
+}
+
+/*Main Section*/
+
+section {
+    display: block;
+    width: 100%;
+}
+
+.shopCategories {
+    background-color: white;
+    position: relative;
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 64%;
+    margin: 5%;
+    vertical-align: top;
+    border-radius: 8px;
+    box-shadow: 3px 3px gray;
+}
+
+.shopCategories a {
+    text-decoration: none;
+    color: black;
+}
+
+.services {
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    margin-top: 5%;
+    margin-right: 5%;
+    vertical-align: top;
+    border-radius: 8px;
+    box-shadow: 3px 3px gray;
+}
+
+.services h3 {
+    text-align: center;
+    margin: 1.7em;
+    color: #663300;
+}
+
+.services ul {
+    margin: 2em 3em 2em 2em;
+    padding-inline-start: 0;
+}
+
+.services a {
+    text-decoration: none;
+    color: #053b00;
+}
+
+.services a:hover {
+    color: gray;
+}
+
+.services p {
+    font-size: 0.75em;
+    margin-inline-start: 6px;
+    margin-bottom: 1.7em;
+}
+
+.panel {
+    display: flex;
+    margin: 3em;
+    flex-direction: column;
+    text-align: center;
+}
+
+.panel img {
+    height: 230px;
+    width: 230px;
+}
+
+/*Customer Photos*/
+.social {
+    background-color: white;
+    width: 65%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px gray;
+    padding: 1em;
+    margin-bottom: 3em;
+}
+
+.social h2 {
+    text-align: center;
+    position: relative;
+    margin: 0.5em;
+    color: #053b00
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
+    height: 600px;
+    width: 100%;
+    margin: 0px 0px;
+    padding: 5px;
+    background-color: white;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.container img {
+    max-width: 260px;
+    max-height: 240px;
+    margin: 8px;
+    border-radius: 5px;
+    flex: auto;
+}
+
+/*Footer*/
+.footer {
+    background-color: white;
+    position: relative;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    padding: 0.2em 0;
+    text-align: center;
+}
+
+#socialbutton {
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+}
+
+.footer ul {
+    position: relative;
+    margin: 0.8em;
+}
+
+.footer ul li {
+    padding: 0 0.7em 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover {
+    color: gray;
+}
